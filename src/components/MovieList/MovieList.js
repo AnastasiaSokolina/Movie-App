@@ -13,13 +13,13 @@ export default class MovieList extends Component {
           <CardFilms
             key={movie.id}
             id={movie.id}
-            poster={movie.posterPath}
+            poster={movie.poster_path}
             title={movie.title}
-            releaseDate={movie.releaseDate}
+            releaseDate={movie.release_date}
             overview={movie.overview} 
-            voteAverage = {movie.voteAverage}
+            voteAverage = {movie.vote_average}
             guestSessionId={guestSessionId}
-            genreIds={movie.genreIds}
+            genreIds={movie.genre_ids}
             onSetFilmRate={onSetFilmRate}
             rating={filmsRatings.get(movie.id) || 0}
           />

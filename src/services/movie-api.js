@@ -34,10 +34,10 @@ export default class MovieService {
         id: movie.id,
         title: movie.title,
         overview: movie.overview,
-        releaseDate: movie.release_date,
-        posterPath: movie.poster_path,
-        voteAverage: movie.vote_average,
-        genreIds: movie.genre_ids,
+        release_date: movie.release_date,
+        poster_path: movie.poster_path,
+        vote_average: movie.vote_average,
+        genre_ids: movie.genre_ids,
       }))
     }   
     
